@@ -1,0 +1,99 @@
+:root {
+    --ff-mont: 'Montserrat', sans-serif;
+}
+html {
+    font-family: var(--ff-mont);
+}
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: row;
+    height: 4em;
+}
+.leftgroup {
+    display: grid;
+    grid-template-columns: 0.25fr 1fr;
+    width: 50%;
+    font-size: 0.8em;
+}
+.imggroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.userimage {
+    border-radius: 50%;
+    height: 2.8em;   
+}
+.text_div {
+    color: white;
+    font-family: var(--ff-mont);
+}
+.btn_group {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.logout {
+    margin: 1.3em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    height: 2em;
+}
+.content {
+    background-color: #fff;
+    height: 50em;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: 30em;
+    width: 40em;
+    margin: 0 auto;
+    align-items: center;
+    position: relative;
+    top: 7em;
+}
+
+.contact_info {
+    width: 215m;
+    height: 20em;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    border-right: 2px lightgrey solid;
+    color: #383838;
+}
+.text_box-1 {
+    text-align: right;
+    margin-right: 3em;
+}
+.user_big {
+    width: 8em;
+    height: 8em;
+    border: 3px lightgrey solid;
+    border-radius: 50%;
+}
+.info_box {
+    margin: 0 0 1em 2em;
+    padding: 0 0 0.5em 0;
+    border-bottom: 2px lightgrey solid;
+    font-size: 0.9em;
+    font-weight: 400;
+    color: #383838;
+}
+
+
+.footer {
+    background-color: #383838;
+    height: 3em;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
